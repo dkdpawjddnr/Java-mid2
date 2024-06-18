@@ -1,7 +1,6 @@
-package generic.test.ex5;
+package generic.ex5;
 
 public class Box<T> {
-
     private T value;
 
     public void set(T value) {

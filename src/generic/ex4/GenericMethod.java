@@ -1,6 +1,11 @@
-package generic.test.ex4;
+package generic.ex4;
 
 public class GenericMethod {
+
+    public <T> T orMethod(T t) {
+        System.out.println("orMehod print: " + t);
+        return t;
+    }
 
     public static Object obgMethod(Object obg) {
         System.out.println("Object print: " + obg);
