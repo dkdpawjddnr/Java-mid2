@@ -33,7 +33,7 @@ public class SortMain2 {
         @Override
         public int compare(Integer o1, Integer o2) {
             System.out.println("o1=" +  o1 + " o2=" + o2);
-            return (o1 < o2) ? -1 : ((o2 == o2) ? 0 : 1) * -1; // 결과가 반대로
+            return (o1 < o2) ? -1 : ((o1 == o2) ? 0 : 1) * -1; // 결과가 반대로
         }
     }
 }
